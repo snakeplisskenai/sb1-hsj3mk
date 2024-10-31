@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { AnalysisResult } from '../types';
 
-const API_URL = 'http://localhost:3000/api/analyze';
+const API_URL = 'https://your-backend-name.onrender.com/api/analyze';
 
 export function useAnalysis() {
   const [loading, setLoading] = useState(false);
